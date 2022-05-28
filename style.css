@@ -63,7 +63,7 @@ button:hover {
 }
 /* Heading */
 h3,
-[for='new-task'] {
+[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +89,7 @@ h3,
 }
 
 /* New Task */
-[for='new-task'] {
+[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
