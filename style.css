@@ -14,8 +14,7 @@ body {
 img {
   width: 100%;
 }
-.logo
-.more-inf {
+.logo__more {
   font-family: fantasy, cursive;
 }
 
@@ -29,12 +28,12 @@ img {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.row__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.main__row {
   display: flex;
 }
 ul {
@@ -126,13 +125,13 @@ li >
 [type="text"] {
   width: 226px;
 }
-.delete
+.row__delete
 img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete
+.row__delete
 img:hover {
   transform: rotateZ(0);
 }
@@ -151,13 +150,13 @@ li
   display: none;
 }
 
-.edit-mode
+.main__edit
 [type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode
+.main__edit
 label {
   display: none;
 }
